@@ -1,0 +1,25 @@
+var _user$project$Hello$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgram(
+	_elm_lang$html$Html$text('The dark arts better be worried, oh boy!'));
+var _user$project$Hello$respond = function (answer) {
+	var _p0 = answer;
+	if (_p0.ctor === 'Yes') {
+		return 'Yes';
+	} else {
+		return 'No';
+	}
+};
+var _user$project$Hello$multiply = F2(
+	function (x, y) {
+		return x * y;
+	});
+var _user$project$Hello$addOne = function (x) {
+	return x + 1;
+};
+var _user$project$Hello$multiplyPlusOne = F2(
+	function (x, y) {
+		return _user$project$Hello$addOne(
+			A2(_user$project$Hello$multiply, x, y));
+	});
+var _user$project$Hello$No = {ctor: 'No'};
+var _user$project$Hello$Yes = {ctor: 'Yes'};
+var _user$project$Hello$myAnswer = _user$project$Hello$Yes;
