@@ -1,0 +1,11 @@
+{
+  "name": "elm_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ash3rz/elm_tests.git",
+  "author": "Ash <asherz@email.arizona.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "0.9.5"
+  }
+}
